@@ -1,5 +1,5 @@
-
-Feature: Feature: US015 Google Testi
+Feature:  US016 Google Testi
+  @a1
   Scenario: TC01 Google sayfasinda Arama kutusunda arac aratilir
     Given kullanici parametreli method ile propertiesden "googleUrl" sayfasina gider
     Then arama kutusunda propertiesden "arac1" aratir
@@ -14,7 +14,7 @@ Feature: Feature: US015 Google Testi
     But kullanici 2 saniye bekler
     And sayfayi kapatir
 
-
+  @a3
   Scenario: TC03 Google sayfasinda Arama kutusunda arac aratilir
     Given kullanici parametreli method ile propertiesden "googleUrl" sayfasina gider
     Then arama kutusunda propertiesden "arac3" aratir
